@@ -1,4 +1,6 @@
+import UserSearch from "../components/UserSearch";
+
 const SearchPage = async () => {
-  return <div>SearchPage</div>;
+  return <UserSearch />;
 };
 export default SearchPage;
