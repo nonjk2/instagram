@@ -5,7 +5,9 @@ import { client } from "@/service/sanity";
 import { getUserByUsername } from "@/service/user";
 
 // export const GET = async (req: Request) => {
+
 //   return NextResponse.json("Hello world");
+
 // };
 
 export async function GET() {

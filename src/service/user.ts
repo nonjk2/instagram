@@ -23,6 +23,11 @@ export const addUser = ({ id, username, email, image, name }: OauthUser) => {
   });
 };
 
+/**
+ *
+ * @param username 유저네임임
+ * @returns 유저정보가 리턴됨
+ */
 export const getUserByUsername = async (username: string) => {
   return client.fetch(`*[_type == 'user' && username == '${username}'][0]{
     ...,
